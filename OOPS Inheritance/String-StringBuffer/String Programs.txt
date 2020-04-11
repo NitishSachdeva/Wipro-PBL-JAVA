@@ -1,0 +1,94 @@
+1	
+ Write a Program to check whether a given String is Palindrome or not.
+String/StringBuffer	
+2	
+ Write a java program that will concatenate 2 strings and return the result. The result should be in lowercase.
+
+Note:If the concatenation creates a double-char, then one of the characters need to be omitted.
+
+Example1)
+i/p:Sachin,Tendulkar
+o/p:sachin tendulkar
+
+Example2)
+i/p:Mark,kate
+o/p:markate
+String/StringBuffer	
+3	
+ Given a string, return a new string made of 'n' copies of the first 2 chars of the original string where 'n' is the length of the string.
+
+Example1)
+i/p:Wipro
+o/p:WiWiWiWiWi
+String/StringBuffer	
+4	
+ Write a java program that will return the first half of the string, if the length of the string is even. It should return null for odd length string.
+
+Example1)
+i/p:TomCat
+o/p:Tom
+
+Example2)
+i/p:Apron
+o/p:null
+String/StringBuffer	
+5	
+ Write a java program that accepts a string and returns a new string without the first and last character of the input string.
+
+Example1)
+i/p:Suman
+o/p:uma
+String/StringBuffer	
+6	
+ Given 2 strings, a and b, return a new string of the form short+long+short, with the shorter string on the outside and the longer string on the inside.
+
+The strings will not be the same length, but they may be empty (length 0).
+
+If input is "hi" and "hello", then output will be "hihellohi".
+String/StringBuffer	
+7	
+ Given a string, if the first or last chars are 'x', return the string without those 'x' chars, otherwise return the string unchanged. 
+
+If the input is "xHix", then output is "Hi".
+If the input is "America", then the output is "America".
+String/StringBuffer	
+8	
+ Write a Java program that accepts a string (with * in it). The program should return a new string in which the following characters are removed-*,the characters that are to the left and right of *
+
+Example1)
+i/p:ab*cd
+o/p:ad
+String/StringBuffer	
+9	
+ Given two strings, a and b, print a new string which is made of the following combination-first character of a, the first character of b, second character of a, second character of b and so on. 
+Any characters left, will go to the end of the result.
+
+Example1)
+i/p:Hello,World
+o/p:HWeolrllod
+String/StringBuffer	
+10	
+ Given a string and an integer n, print a new string made of n repetitions of the last n characters of the string. 
+You may assume that n is between 0 and the length of the string, inclusive. 
+
+Example1)
+i/p:Wipro,3
+o/p:propropro
+String/StringBuffer	
+11	
+ Given two strings a and b, return a new string, following the rules given below. 
+If string b occurs in string a, then the new string should concatenate the characters that appear before and after of String b.
+Ignore cases where there is no character before or after the word, and a character may be included twice if it is in between two string b's.
+
+Example1)
+i/p:abcXY123XYijk,XY
+o/p:c13i
+
+Example2)
+i/p:XY123XY,XY
+o/p:13
+
+Example3)
+i/p:XY1XY,XY
+o/p:11
+String/StringBuffer
